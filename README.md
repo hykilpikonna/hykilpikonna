@@ -1,5 +1,12 @@
 ### Hi there 👋
 
+### 📫 You can reach me at:
+
+* Discord `Hykilpikonna#3162` (<12h)
+* Wechat `@hykilp` (<12h)
+* Email me@hydev.org (<24h)
+* **!NEW!** Anonymous Question Box: https://peing.net/hykilpikonna (<24h)
+
 <!--
 **hykilpikonna/hykilpikonna** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
