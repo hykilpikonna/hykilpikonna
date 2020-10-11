@@ -4,20 +4,25 @@ I'm a senior high-school student interested in creating fun projects using Front
 
 
 
-### 💾 My overall statistics
+### 🌷 My overall statistics
 
 ![](https://github-readme-stats.vercel.app/api?username=hykilpikonna&hide=stars&include_all_commits=true&show_icons=true&title_color=ff7d92&text_color=ffb5c2&icon_color=ff869a&hide_border=true)
 
 
 
-### 📫 You can reach me at
+### 🕊️ You can reach me at
 
-* Discord `Hykilpikonna#3162` (<12h)
-* Wechat `@hykilp` (<12h)
-* Email me@hydev.org (<24h)
-* **NEW!** Anonymous Question Box: https://peing.net/hykilpikonna (<24h)
+* Discord `Hykilpikonna#3162`
+* Wechat `@hykilp`
+* Email me@hydev.org
+* **NEW!** Anonymous Question Box: https://peing.net/hykilpikonna
 
 
+
+### 🌱 I'm currently working on...
+
+* `1%` A 3D music game.
+* `5%` An iOS utility app to automatically prompt zoom links when class start.
 
 <!--
 **hykilpikonna/hykilpikonna** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
