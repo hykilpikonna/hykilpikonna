@@ -18,8 +18,8 @@ I'm a senior high-school student interested in creating fun projects using Front
 
 ### 🌱 Projects I'm currently working on
 
-* `1%` A 3D music game.
-* `5%` An iOS utility app to automatically prompt zoom links when class start.
+* `3%` A 3D music game.
+* `70%` An iOS/MacOS widget that shows zoom links when class start [ZoomLinkKeeper](https://github.com/HyDevelop/ZoomLinkKeeper).
 
 
 ### 🌲 Completed projects
