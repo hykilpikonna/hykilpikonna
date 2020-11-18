@@ -1,6 +1,6 @@
 ### Hi there, I'm Hykilpikonna!
 
-I'm a senior high-school student interested in creating fun projects using Frontend (Web) development, Game development, and Data Science technologies.
+I'm a senior high-school student in Boston MA, interested in creating fun projects using Frontend (Web) development, Game development, and Data Science technologies.
 
 
 ### 🌷 My overall statistics
@@ -18,7 +18,7 @@ I'm a senior high-school student interested in creating fun projects using Front
 
 ### 🌱 Projects I'm currently working on
 
-* `3%` A 3D music game.
+* ~~`3%` A 3D music game.~~
 * `70%` An iOS/MacOS widget that shows zoom links when class start [ZoomLinkKeeper](https://github.com/HyDevelop/ZoomLinkKeeper).
 
 
