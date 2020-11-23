@@ -19,6 +19,15 @@ I'm a senior high-school student in Boston MA, interested in creating fun projec
 ### ⭐ I have experience using
 
 * Kotlin / Java
+* TypeScript / JS
+* HTML & SCSS
+* Python 3
+* Swift
+
+<details><summary>More</summary>
+<p>
+ 
+* Kotlin / Java
   * Gradle & Maven
   * JUnit
   * Hibernate
@@ -26,12 +35,18 @@ I'm a senior high-school student in Boston MA, interested in creating fun projec
   * Vue
   * Angular
   * Ionic / Cordova
-* HTML + SCSS
+* HTML & SCSS
   * ElementUI
+  * ECharts
   * Vuesax
   * Semantic-UI
 * Python 3
 * Swift
+* ~~C++~~
+* ~~Brainf***~~
+
+</p>
+</details>
 
 ### 🌱 Projects I'm currently working on
 
