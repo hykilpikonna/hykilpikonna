@@ -16,6 +16,23 @@ I'm a senior high-school student in Boston MA, interested in creating fun projec
 * **NEW!** Anonymous Question Box: https://peing.net/hykilpikonna
 
 
+### ⭐ I have experience using
+
+* Kotlin / Java
+  * Gradle & Maven
+  * JUnit
+  * Hibernate
+* TypeScript / JavaScript
+  * Vue
+  * Angular
+  * Ionic / Cordova
+* HTML + SCSS
+  * ElementUI
+  * Vuesax
+  * Semantic-UI
+* Python 3
+* Swift
+
 ### 🌱 Projects I'm currently working on
 
 * ~~`3%` A 3D music game.~~
