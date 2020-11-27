@@ -52,7 +52,7 @@ I'm a senior high-school student in Boston MA, interested in creating fun projec
 
 * ~~`3%` A 3D music game.~~
 * `70%` An iOS/MacOS widget that shows zoom links when class start [ZoomLinkKeeper](https://github.com/HyDevelop/ZoomLinkKeeper).
-
+* `50%` A Telegram bot to monitor HTTP response updates [NetworkDiffBot](https://github.com/hykilpikonna/NetworkDiffBot).
 
 ### 🌲 Completed projects
 
