@@ -1,6 +1,6 @@
 ### Hi there, I'm Hykilpikonna!
 
-I'm a senior high-school student in Boston MA, interested in creating fun projects using Frontend (Web) development, Game development, and Data Science technologies.
+I'm Hykilpikonna (YGui), a senior high-school student in Boston MA, interested in creating fun projects using Frontend (Web) development, Game development, and Data Science technologies.
 
 
 ### 🌷 My overall statistics
