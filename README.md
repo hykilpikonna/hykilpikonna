@@ -29,8 +29,10 @@ I'm Hykilpikonna (YGui), a senior high-school student in Boston MA, interested i
  
 * Kotlin / Java
   * Gradle & Maven
+  * Spring
   * JUnit
   * Hibernate
+  * ... and many others
 * TypeScript / JavaScript
   * Vue
   * Angular
