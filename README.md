@@ -52,10 +52,10 @@ I'm Hykilpikonna (YGui), a senior high-school student in Boston MA, interested i
 
 ### 🌱 Projects I'm currently working on
 
-* `90%` iOS Class Final: An alarm clock app that makes sure the user wakes up [GetGoing](https://github.com/hykilpikonna/GetGoing).
-* `70%` An iOS/MacOS widget that shows zoom links when class start [ZoomLinkKeeper](https://github.com/HyDevelop/ZoomLinkKeeper).
-* `50%` A Telegram bot to monitor HTTP response updates [NetworkDiffBot](https://github.com/hykilpikonna/NetworkDiffBot).
-* `100%` C++ Class Final: A tic-tac-toe GUI implementation using GTKmm 4, with an unbeatable AI [repo](https://github.com/hykilpikonna/School-CppAssignments).
+* `90%` iOS Class Final: An alarm clock app that makes sure the user wakes up - [GetGoing](https://github.com/hykilpikonna/GetGoing).
+* `70%` An iOS/MacOS widget that shows zoom links when class start - [ZoomLinkKeeper](https://github.com/HyDevelop/ZoomLinkKeeper).
+* `50%` A Telegram bot to monitor HTTP response updates - [NetworkDiffBot](https://github.com/hykilpikonna/NetworkDiffBot).
+* `100%` C++ Class Final: A tic-tac-toe GUI implementation using GTKmm 4, with an unbeatable AI - [repo](https://github.com/hykilpikonna/School-CppAssignments).
 
 ### 🌲 Completed projects
 
