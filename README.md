@@ -23,7 +23,7 @@ I'm Hykilpikonna (YGui), a senior high-school student in Boston MA, interested i
 * 🇨🇳 中文 
   * Arealme: [1995 words](https://imgur.com/sxtLGzM) (Tested on [arealme.com](https://www.arealme.com/chinese-vocabulary-size-test/cn/), as of Apr. 20, 2021)
 * 🇯🇵 日本語 (Learning)
-
+  * `65.3%` toward completing N5
 
 ### ⭐ I have experience using
 
