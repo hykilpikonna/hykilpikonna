@@ -18,7 +18,7 @@ I'm Hykilpikonna (YGui), a senior high-school student in Boston MA, interested i
 
 ### 🌎 I can speak
 
-* 🇺🇸 English - `13053 words` as of Apr. 20, 2021
+* 🇺🇸 English - [13053 words](https://imgur.com/a/jk3tDGi) (Tested by [Shanbay](https://www.shanbay.com/bdc/mobile/vocabtest/) as of Apr. 20, 2021)
 * 🇨🇳 中文
 * 🇯🇵 日本語 (Learning)
 
