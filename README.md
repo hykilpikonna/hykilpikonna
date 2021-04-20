@@ -16,6 +16,13 @@ I'm Hykilpikonna (YGui), a senior high-school student in Boston MA, interested i
 * **NEW!** Anonymous Question Box: https://peing.net/hykilpikonna
 
 
+### 🌎 I can speak
+
+* 🇺🇸 English - `13053 words` as of Apr. 20, 2021
+* 🇨🇳 中文
+* 🇯🇵 日本語 (Learning)
+
+
 ### ⭐ I have experience using
 
 * Kotlin / Java
