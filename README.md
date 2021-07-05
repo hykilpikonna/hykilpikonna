@@ -20,6 +20,7 @@ I'm Hykilpikonna (YGui), a senior high-school student in Boston MA, interested i
 
 * 🇺🇸 English 
   * Shanbay: [13053 Words (97th Percentile)](https://imgur.com/a/jk3tDGi) (Tested on [Shanbay](https://www.shanbay.com/bdc/mobile/vocabtest/), as of Apr. 20, 2021)
+  * IELTS: 8.0 (Listening: 7.5, Reading: 8.0, Writing: 7.5, Speaking: 8.0, as of Apr. 29, 2021)
 * 🇨🇳 中文 
   * Arealme: [1995 Words (45th Percentile)](https://imgur.com/sxtLGzM) (Tested on [arealme.com](https://www.arealme.com/chinese-vocabulary-size-test/cn/), as of Apr. 20, 2021)
 * 🇯🇵 日本語 (Learning)
