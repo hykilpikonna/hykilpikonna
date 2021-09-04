@@ -1,18 +1,3 @@
-### Aug 28, 2021 Notice
-
-```diff
-@@ Update on HyDevelop Organization's Deletion @@
-
-- On Aug 28, HyDevelop was deleted by @VergeDX during our breakup.
-
-+ I've created a ticket right after the deletion, but I haven't heard back from Github Support as of Sep 1.
-+ https://support.github.com/ticket/personal/0/1290358
-
-! There aren't any full organization backups, and WaybackMachine didn't store it as well.
-! I do have a few repositories' code cloned on my local drive, but they are not latest.
-! Re-creating the repositories would not restore all the pull-request histories, forks, and stars.
-```
-
 ### Hi there, I'm Hykilpikonna!
 
 I'm Hykilpikonna, a freshman undergrad student at UofT, interested in creating fun projects using Frontend (Web) development, Game development, and Data Science technologies.
