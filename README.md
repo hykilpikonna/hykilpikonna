@@ -12,7 +12,7 @@ I'm Hykilpikonna, a freshman undergrad student at UofT, interested in creating f
 
 * Discord `Hykilpikonna#3162`
 * Wechat `@hykilp`
-* Email me@hydev.org
+* Email me[@](#at)hydev[.](#dot)org
 * **NEW!** Anonymous Question Box: https://peing.net/hykilpikonna
 
 
