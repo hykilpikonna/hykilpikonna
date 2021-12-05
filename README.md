@@ -48,15 +48,13 @@ I'm Hykilpikonna, a freshman undergrad student at UofT, interested in creating f
   * Vue
   * Angular
   * Ionic / Cordova
-* HTML & SCSS
+* HTML & SCSS / Sass
   * ElementUI
   * ECharts
   * Vuesax
-  * Semantic-UI
 * Python 3
 * Swift
 * ~~C++~~
-* ~~Brainf***~~
 
 </p>
 </details>
