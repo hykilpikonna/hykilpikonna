@@ -62,14 +62,15 @@ I'm Hykilpikonna, a freshman undergrad student at UofT, interested in creating f
 
 ### 🌱 Projects I'm currently working on
 
+* `99%` A website remembering our friends for TDoR - [OneAmongUs](https://github.com/hykilpikonna/OneAmongUs.Web).
 * `10%` A spaced-repetition vocabulary memorization program optimized for Japanese language study - [NyaaMemo](https://github.com/hykilpikonna/AnkiNG).
-* `70%` An iOS/MacOS widget that shows zoom links when class start - [ZoomLinkKeeper](https://github.com/HyDevelop/ZoomLinkKeeper).
 
 #### Recently finished
 
 * `100%` iOS Class Final: An alarm clock app that makes sure the user wakes up - [GetGoing](https://github.com/hykilpikonna/GetGoing).
 * `100%` C++ Class Final: A tic-tac-toe GUI implementation using GTKmm 4, with an unbeatable AI - [repo](https://github.com/hykilpikonna/School-CppAssignments).
 * `100%` A Telegram bot to monitor HTTP response updates - [NetworkDiffBot](https://github.com/hykilpikonna/NetworkDiffBot).
+* `100%` An iOS/MacOS widget that shows zoom links when class start - [ZoomLinkKeeper](https://github.com/HyDevelop/ZoomLinkKeeper).
 
 ### 🌲 Completed projects
 
