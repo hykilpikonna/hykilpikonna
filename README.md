@@ -62,7 +62,7 @@ I'm Hykilpikonna, a freshman undergrad student at UofT, interested in creating f
 
 ### 🌱 Projects I'm currently working on
 
-* `99%` A website remembering our friends for TDoR - [OneAmongUs](https://github.com/hykilpikonna/OneAmongUs.Web).
+* `10%` A personal home page / blog
 * `10%` A spaced-repetition vocabulary memorization program optimized for Japanese language study - [NyaaMemo](https://github.com/hykilpikonna/AnkiNG).
 
 #### Recently finished
