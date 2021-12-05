@@ -10,6 +10,7 @@ I'm Hykilpikonna, a freshman undergrad student at UofT, interested in creating f
 
 ### 🕊️ You can reach me at
 
+* Telegram [@hykilpikonna](https://t.me/hykilpikonna)
 * Discord `Hykilpikonna#3162`
 * Wechat `@hykilp`
 * Email me[@](#at)hydev[.](#dot)org
