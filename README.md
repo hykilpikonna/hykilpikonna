@@ -63,7 +63,9 @@ I also love cats =^･-･^=
 
 ### 🌱 Projects I'm currently working on
 
-* `10%` A personal home page / blog
+* `20%` A personal home page / blog
+* `20%` A speech gender recognition bot based on ML
+* `10%` A RottenTomatoes filter
 * `10%` A spaced-repetition vocabulary memorization program optimized for Japanese language study - [NyaaMemo](https://github.com/hykilpikonna/AnkiNG).
 
 #### Recently finished
