@@ -1,3 +1,7 @@
+### 🎄 Merry Christmas!
+
+Here, have some candies 🍬🍬🍬🍬🍬
+
 ### 🐱 Hi there, I'm Hykilpikonna!
 
 I'm Hykilpikonna, a freshman undergrad student at UofT, interested in creating fun projects using Frontend (Web) development, Game development, and Data Science technologies.
