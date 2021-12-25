@@ -27,7 +27,7 @@ jobs:
         run: |
           set -xe
           python -VV
-          python -m pip install json5
+          python -m pip install pyyaml
         
       - name: "Run generator"
         run: "python .github/workflows/generator.py"
