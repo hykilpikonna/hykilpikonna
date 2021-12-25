@@ -41,7 +41,7 @@ I also love cats =^･-･^=
 * Python 3
 * Swift
 
-<details><summary>More</summary>
+<details><summary style="margin-left: 20px;">More</summary>
 <p>
  
 * Kotlin / Java
