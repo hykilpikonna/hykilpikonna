@@ -21,6 +21,7 @@ if __name__ == '__main__':
         if not b.endswith('.md'):
             continue
 
+        # Read blog posts
         file = 'content/posts/' + b
         with open(file, 'r', encoding='utf-8') as f:
             md = f.read().strip()
@@ -38,8 +39,9 @@ if __name__ == '__main__':
                 except:
                     pass
 
+            # Convert image path
             if 'title_image' in meta and '/' not in meta['title_image']:
-                meta['title_image'] = 'content/generated/' + meta['title_image']
+                meta['title_image'] = 'content/images/' + meta['title_image']
 
     metas.sort(key=lambda x: x['date'], reverse=True)
 

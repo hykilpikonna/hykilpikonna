@@ -1,5 +1,5 @@
 [
     {"title": "一个测试文稿", "subtitle": "你好，世界", "tags": ["测试", "测试2"], "file": "content/posts/2021-12-25 Test Post.md", "date": "2021-12-25"},
-    {"title": "651层", "title_image": "content/generated/2021-12-07 earth.jpg", "tags": ["梦"], "file": "content/posts/2021-12-07 651层.md", "date": "2021-12-07"},
-    {"title": "十五秒的记忆、开心又无意义的人生、人的自私愿望", "title_image": "content/generated/2021-10-14 Clive Wearing journal.png", "tags": ["心理"], "file": "content/posts/2021-10-14 十五秒的记忆.md", "date": "2021-10-14"}
+    {"title": "651层", "title_image": "content/images/2021-12-07 earth.jpg", "tags": ["梦"], "file": "content/posts/2021-12-07 651层.md", "date": "2021-12-07"},
+    {"title": "十五秒的记忆、开心又无意义的人生、人的自私愿望", "title_image": "content/images/2021-10-14 Clive Wearing journal.png", "tags": ["心理"], "file": "content/posts/2021-10-14 十五秒的记忆.md", "date": "2021-10-14"}
 ]
