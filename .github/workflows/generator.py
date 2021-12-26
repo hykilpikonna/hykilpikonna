@@ -30,6 +30,18 @@ if __name__ == '__main__':
             meta = {**yaml.safe_load(yml), 'file': file}
             metas.append(meta)
 
+            # Parse date
+            if 'date' not in meta:
+                try:
+                    meta['date'] = date(int(b[:4]), int(b[5:7]), int(b[8:10]))
+                except:
+                    pass
+
+            if 'title_image' in meta and '/' not in meta['title_image']:
+                meta['title_image'] = 'content/generated/' + meta['title_image']
+
+    metas.sort(key=lambda x: x['date'], reverse=True)
+
     metas_path = Path('content/generated/metas.json')
     metas_path.parent.mkdir(exist_ok=True, parents=True)
     with open(metas_path, 'w', encoding='utf-8') as f:
