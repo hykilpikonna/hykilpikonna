@@ -29,6 +29,7 @@ if __name__ == '__main__':
             yml = md[start + 4:stop]
             meta = {**yaml.safe_load(yml), 'file': file}
             metas.append(meta)
+            meta.setdefault('tags', [])
 
             # Parse date
             if 'date' not in meta:
