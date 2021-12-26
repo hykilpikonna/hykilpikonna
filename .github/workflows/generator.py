@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from datetime import datetime, date
 from pathlib import Path
 
@@ -16,6 +17,7 @@ class EnhancedJSONEncoder(json.JSONEncoder):
 
 
 if __name__ == '__main__':
+    # Loop through all blog posts
     metas = []
     for b in os.listdir('content/posts'):
         if not b.endswith('.md'):
@@ -24,10 +26,7 @@ if __name__ == '__main__':
         # Read blog posts
         file = 'content/posts/' + b
         with open(file, 'r', encoding='utf-8') as f:
-            md = f.read().strip()
-            start = md.index('---\n')
-            stop = md.index('---\n', start + 1)
-            yml = md[start + 4:stop]
+            yml, md = re.split('---+\n', f.read().strip())[1:]
             meta = {**yaml.safe_load(yml), 'file': file}
             metas.append(meta)
             meta.setdefault('tags', [])
