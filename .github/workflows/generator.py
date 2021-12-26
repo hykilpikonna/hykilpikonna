@@ -43,6 +43,10 @@ if __name__ == '__main__':
             if 'title_image' in meta and '/' not in meta['title_image']:
                 meta['title_image'] = 'content/images/' + meta['title_image']
 
+            content = md[stop + 4:].strip()
+            meta['preview'] = '\n'.join(content.split('\n')[:5])
+            meta['more_content'] = len(content.split('\n')) > 5
+
     metas.sort(key=lambda x: x['date'], reverse=True)
 
     metas_path = Path('content/generated/metas.json')
