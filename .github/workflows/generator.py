@@ -52,8 +52,16 @@ if __name__ == '__main__':
     tags = Counter([t for p in posts for t in p['tags']])
     cats = Counter([p['category'] for p in posts if 'category' in p])
     tags, cats = [[(k, c[k]) for k in c] for c in [tags, cats]]
-    print(tags, cats)
+
+    # Convert to json
+    json_text = '{\n' \
+                f'  "tags": {json.dumps(tags, ensure_ascii=False)},\n' \
+                f'  "categories": {json.dumps(cats, ensure_ascii=False)},\n' \
+                '  "posts": [\n    ' \
+                + ',\n    '.join(json.dumps(p, cls=Encoder, ensure_ascii=False) for p in posts) + '\n' \
+                '  ]\n' \
+                '}'
 
     mp = Path('content/generated/metas.json')
     mp.parent.mkdir(exist_ok=True, parents=True)
-    mp.write_text(json.dumps(posts, cls=Encoder, ensure_ascii=False, indent=2), 'utf-8')
+    mp.write_text(json_text, 'utf-8')
