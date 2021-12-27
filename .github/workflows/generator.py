@@ -29,7 +29,7 @@ if __name__ == '__main__':
         file = 'content/posts/' + b
         with open(file, 'r', encoding='utf-8') as f:
             yml, md = re.split('---+\n', f.read().strip())[1:]
-            post = {**yaml.safe_load(yml), 'file': file}
+            post = {'id': 0, **yaml.safe_load(yml), 'file': file}
             posts.append(post)
             post.setdefault('tags', [])
 
@@ -47,6 +47,10 @@ if __name__ == '__main__':
             post['content'] = md.strip()
 
     posts.sort(key=lambda x: x['date'], reverse=True)
+
+    # Give every post an id based on index
+    for i, p in enumerate(posts):
+        p['id'] = i
 
     # Count tags and categories
     tags = Counter([t for p in posts for t in p['tags']])
