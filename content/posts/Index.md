@@ -9,8 +9,8 @@ TODO: 欢迎文案
 
 按分类检索：
 
-<BlogIndexTags/>
+<BlogIndex/>
 
 按主题检索：
 
-<BlogIndexCategories/>
+<BlogIndex mode="categories"/>
