@@ -36,9 +36,9 @@ if __name__ == '__main__':
             # Parse date
             if 'date' not in post:
                 try:
-                    post['date'] = date(int(b[:4]), int(b[5:7]), int(b[8:10]))
+                    post['date'] = datetime(int(b[:4]), int(b[5:7]), int(b[8:10]))
                 except:
-                    pass
+                    post['date'] = datetime.fromtimestamp(os.path.getmtime(file))
 
             # Convert image path
             if 'title_image' in post and '/' not in post['title_image']:
