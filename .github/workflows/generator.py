@@ -57,10 +57,16 @@ if __name__ == '__main__':
     cats = Counter([p['category'] for p in posts if 'category' in p])
     tags, cats = [[(k, c[k]) for k in c] for c in [tags, cats]]
 
+    # Pins
+    pins = [p for p in posts if 'pinned' in p]
+    pins.sort(key=lambda x: x['pinned'])
+    pins = [p['id'] for p in pins]
+
     # Convert to json
     json_text = '{\n' \
                 f'  "tags": {json.dumps(tags, ensure_ascii=False)},\n' \
                 f'  "categories": {json.dumps(cats, ensure_ascii=False)},\n' \
+                f'  "pins": {json.dumps(pins, ensure_ascii=False)},\n' \
                 '  "posts": [\n    ' \
                 + ',\n    '.join(json.dumps(p, cls=Encoder, ensure_ascii=False) for p in posts) + '\n' \
                 '  ]\n' \
