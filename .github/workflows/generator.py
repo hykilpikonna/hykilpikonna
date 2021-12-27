@@ -44,13 +44,17 @@ if __name__ == '__main__':
             if 'title_image' in post and '/' not in post['title_image']:
                 post['title_image'] = 'content/images/' + post['title_image']
 
+            # Generate url-name
+            if 'url_name' not in post:
+                post['url_name'] = os.path.splitext(b)[0].replace(' ', '-')
+
             post['content'] = md.strip()
 
     posts.sort(key=lambda x: x['date'], reverse=True)
 
     # Give every post an id based on index
     for i, p in enumerate(posts):
-        p['id'] = i
+        p['id'] = len(posts) - i
 
     # Count tags and categories
     tags = Counter([t for p in posts for t in p['tags']])
