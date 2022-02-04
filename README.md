@@ -1,7 +1,3 @@
-### 🎄 Merry Christmas!
-
-Here, have some candies 🍬🍬🍬🍬🍬
-
 ### 🐱 Hi there, I'm Hykilpikonna!
 
 I'm Hykilpikonna, a first-year undergraduate student at the University of Toronto, majoring in computer science and psychology. I'm interested in web development and machine learning. I'm currently doing research on voice-based gender identification for Chinese speakers.
