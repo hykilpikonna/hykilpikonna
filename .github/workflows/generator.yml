@@ -33,6 +33,8 @@ jobs:
         run: |
           python .github/workflows/generator.py
           python .github/workflows/friends.py
+        env:
+          TWITTER_BEARER: ${{ secrets.TWITTER_BEARER }}
         
       - uses: EndBug/add-and-commit@v7
         with:
