@@ -45,8 +45,8 @@ if __name__ == '__main__':
         if avatar:
             f['avatar'] = '/' + wget(avatar, gen_path / f'img/{name}-avatar.jpg')
 
-        if 'link' not in f:
-            f['link'] = f'https://twitter.com/{name}'
+        # if 'link' not in f:
+        #     f['link'] = f'https://twitter.com/{name}'
 
     (gen_path / 'friends.json').write_text(json.dumps(friends), 'utf-8')
 
