@@ -24,17 +24,26 @@ if __name__ == '__main__':
     (gen_path / 'img').mkdir(exist_ok=True, parents=True)
 
     # Loop through all friends
-    friends = json5.loads(Path('content/friends.json5').read_text('utf-8'))
+    friends: list[dict] = json5.loads(Path('content/friends.json5').read_text('utf-8'))
     for f in friends:
-        if 'twitter' not in f:
-            continue
+        avatar, banner = f.get('avatar'), f.get('banner')
+        name = f['name']
 
-        name = f['twitter']
-        u: User = api.get_user(screen_name=name)
+        # Get avatar url
+        if 'twitter' in f:
+            name = f['twitter']
+            u: User = api.get_user(screen_name=name)
 
-        if 'profile_banner_url' in u.__dict__:
-            f['banner'] = '/' + wget(u.profile_banner_url, gen_path / f'img/{name}-banner.jpg')
-        f['avatar'] = '/' + wget(u.profile_image_url_https.replace('_normal', ''), gen_path / f'img/{name}-avatar.jpg')
+            if not avatar:
+                avatar = u.profile_image_url_https.replace('_normal', '')
+            if not banner and 'profile_banner_url' in u.__dict__:
+                banner = u.profile_banner_url
+
+        # Download avatar/banner locally
+        if banner:
+            f['banner'] = '/' + wget(banner, gen_path / f'img/{name}-banner.jpg')
+        if avatar:
+            f['avatar'] = '/' + wget(avatar, gen_path / f'img/{name}-avatar.jpg')
 
         if 'link' not in f:
             f['link'] = f'https://twitter.com/{name}'
