@@ -27,7 +27,7 @@ jobs:
         run: |
           set -xe
           python -VV
-          python -m pip install pyyaml
+          python -m pip install pyyaml tweepy json5 requests
         
       - name: "Run generator"
         run: "python .github/workflows/generator.py"
