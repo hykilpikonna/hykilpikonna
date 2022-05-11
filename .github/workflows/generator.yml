@@ -30,7 +30,9 @@ jobs:
           python -m pip install pyyaml tweepy json5 requests
         
       - name: "Run generator"
-        run: "python .github/workflows/generator.py"
+        run: |
+          python .github/workflows/generator.py
+          python .github/workflows/friends.py
         
       - uses: EndBug/add-and-commit@v7
         with:

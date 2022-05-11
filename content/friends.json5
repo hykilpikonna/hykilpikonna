@@ -1,3 +1,18 @@
 [
-    {name: 'Shu Lin', twitter: 'sauricat'}
+    {name: 'Shu Lin', twitter: 'sauricat'},
+    {name: '聊聊', twitter: 'youquzhiji'},
+    {name: 'Kevin G', twitter: 'KevinGaojx'},
+    {name: 'Yuuta', twitter: 'NeoTrumeet'},
+    {name: 'Saukiya', twitter: 'SaukiyaEX'},
+    {name: 'Billchenchina', twitter: 'BillChen2001'},
+    {name: '芋头 Leohearts', twitter: 'leph1art5'},
+    {name: '霧雨桂子', twitter: 'kirisamelev'},
+    {name: 'Sez', twitter: 'Sezruzette'},
+    {name: '眠洲', twitter: 'raven_uw'},
+    {name: 'Kiritake Kumi', twitter: 'nowkiritakekumi', link: 'https://niconiconi.us/'},
+    {name: 'Menci', avatar: 'https://cdn-static.menci.xyz/menci-homepage/avatar.png', link: 'https://men.ci/'},
+    {name: 'kunihiro', avatar: 'https://avatars.githubusercontent.com/u/34958289', link: 'https://kunihiro.me/'},
+    {name: '麻薯', twitter: 'Origamitamaran'},
+    {name: '完颜澄', twitter: 'zsy123515'},
+    //    {name: '', twitter: ''},
 ]
