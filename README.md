@@ -8,6 +8,7 @@ I also love cats =^･-･^=
 ### 🌷 My overall statistics <!--{ hideLines(3) }-->
 
 ![](https://github-readme-stats.vercel.app/api?username=hykilpikonna&hide=stars&include_all_commits=true&show_icons=true&title_color=ff7d92&text_color=ffb5c2&icon_color=ff869a)
+<img src="https://user-images.githubusercontent.com/22280294/179611382-5704fe4f-ef8c-40f2-b868-5921cfb56da6.png" alt="pusheen" height="160px">
 
 ### 🕊️ You can reach me at <!--{ collapseSection() }-->
 
