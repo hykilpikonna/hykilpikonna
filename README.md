@@ -47,7 +47,7 @@ I also love cats =^･-･^=
 ### 🌲 Completed projects <!--{ collapseSection() }-->
 
 I published most my projects to [HyDEV (HyDevelop)](https://github.com/hydevelop), previously a two-person organization of me and my best friend [Vanilla](https://github.com/vergedx) before we broke up last year. Currently, I publish my projects to this personal account.
-There is a list of my significant completed projects with English descriptions on my [About-Me website](https://me.hydev.org).
+There is a list of my significant completed projects with English descriptions on my [projects website](https://me.hydev.org).
 But here is a brief list of my projects with their statistics:
 
 (Since some of them, such as PicqBotX, is only applicable to a Chinese developer community, their description and documentation shouldn't be in English)
