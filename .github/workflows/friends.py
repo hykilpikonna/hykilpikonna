@@ -26,8 +26,19 @@ if __name__ == '__main__':
     # Loop through all friends
     friends: list[dict] = json5.loads(Path('content/friends.json5').read_text('utf-8'))
     for f in friends:
-        avatar, banner = f.get('avatar'), f.get('banner')
         name = f['name']
+        avatar_path = gen_path / f'img/{name}-avatar.jpg'
+        banner_path = gen_path / f'img/{name}-banner.jpg'
+
+        # Already cached
+        if avatar_path.is_file():
+            f['avatar'] = str(avatar_path)
+        if banner_path.is_file():
+            f['banner'] = str(banner_path)
+        if avatar_path.is_file() and banner_path.is_file():
+            continue
+
+        avatar, banner = f.get('avatar'), f.get('banner')
 
         # Get avatar url
         if 'twitter' in f:
@@ -41,12 +52,9 @@ if __name__ == '__main__':
 
         # Download avatar/banner locally
         if banner:
-            f['banner'] = '/' + wget(banner, gen_path / f'img/{name}-banner.jpg')
+            f['banner'] = '/' + wget(banner, banner_path)
         if avatar:
-            f['avatar'] = '/' + wget(avatar, gen_path / f'img/{name}-avatar.jpg')
-
-        # if 'link' not in f:
-        #     f['link'] = f'https://twitter.com/{name}'
+            f['avatar'] = '/' + wget(avatar, avatar_path)
 
     (gen_path / 'friends.json').write_text(json.dumps(friends), 'utf-8')
 
