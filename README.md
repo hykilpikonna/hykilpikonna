@@ -39,11 +39,12 @@ I also love cats =^･-･^=
 
 ### 🌱 Projects I'm currently working on <!--{ collapseSection() }-->
 
-* `20%` A personal home page / blog
-* `50%` A speech gender recognition algorithm based on ML and statistical analysis of fundamental frequency and formants.
+* `1%` A risc-v 16" laptop
+* `90%` A personal home page / blog: [profile.hydev.org](https://profile.hydev.org)
+* `50%` A speech gender recognition algorithm based on ML and statistical analysis of formants.
 * `40%` A transgender voice training app.
-* ~~`10%` A RottenTomatoes filter~~
-* `10%` A spaced-repetition vocabulary memorization program optimized for Japanese language study - [NyaaMemo](https://github.com/hykilpikonna/AnkiNG).
+* `90%` Taking over neofetch with [HyFetch](https://github.com/hykilpikonna/HyFetch) / neowofetch
+* `10%` ~~A spaced-repetition vocabulary memorization program optimized for Japanese language study - [NyaaMemo](https://github.com/hykilpikonna/AnkiNG)~~.
 
 ### 🌲 Completed projects <!--{ collapseSection() }-->
 
