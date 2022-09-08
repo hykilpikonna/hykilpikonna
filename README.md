@@ -39,7 +39,7 @@ I also love cats =^･-･^=
 ### 🌱 Projects I'm currently working on <!--{ collapseSection() }-->
 
 * `1%` A risc-v 16" laptop
-* `90%` A personal home page / blog: [profile.hydev.org](https://profile.hydev.org)
+* `90%` A personal home page / blog: [profile.hydev.org](https://profile.hydev.org) / [aza.moe](https://aza.moe)
 * `50%` A speech gender recognition algorithm based on ML and statistical analysis of formants.
 * `40%` A transgender voice training app.
 * `90%` Taking over neofetch with [HyFetch](https://github.com/hykilpikonna/HyFetch) / neowofetch
