@@ -1,6 +1,6 @@
 ### 🐱 Hi there, I'm Hykilpikonna!
 
-I'm Hykilpikonna, a first-year undergraduate student at the University of Toronto, majoring in computer science and psychology. I'm interested in web development and machine learning. I'm currently doing research on voice-based gender identification for Chinese speakers.
+I'm Hykilpikonna, a second-year undergraduate student at the University of Toronto, majoring in computer science and psychology. I'm interested in web development and machine learning. I'm currently doing research on voice-based gender identification for Chinese speakers.
 
 I also love cats =^･-･^=
 
@@ -15,7 +15,6 @@ I also love cats =^･-･^=
 
 * Telegram [@hykilpikonna](https://t.me/hykilpikonna)
 * Discord `Hykilpikonna#3162`
-* Wechat `@hykilp`
 * Email me@hydev.org
 * **NEW!** Anonymous Question Box: https://peing.net/hykilpikonna
 
