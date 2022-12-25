@@ -37,7 +37,7 @@ if __name__ == '__main__':
         if 'twitter' in f:
             u: User = api.get_user(user_id=f['twitter'])
             print(f"{f['twitter']}'s username is {u.screen_name}")
-            f['twitter'] = u.url
+            f['twitter'] = f"https://twitter.com/{u.screen_name}"
 
             if not avatar:
                 avatar = u.profile_image_url_https.replace('_normal', '')
