@@ -18,16 +18,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
         with:
-          python-version: "3.9"
+          python-version: "3.11"
+          cache: 'pip'
           
       - name: "Install dependencies"
         run: |
-          set -xe
           python -VV
-          python -m pip install pyyaml tweepy json5 requests
+          python -m pip install -r requirements.txt
         
       - name: "Run generator"
         run: |
@@ -38,13 +38,5 @@ jobs:
         
       - uses: EndBug/add-and-commit@v7
         with:
-          # Determines the way the action fills missing author name and email. Three options are available:
-          # - github_actor -> UserName <UserName@users.noreply.github.com>
-          # - user_info -> Your Display Name <your-actual@email.com>
-          # - github_actions -> github-actions <email associated with the github logo>
-          # Default: github_actor
           default_author: github_actions
-
-          # The message for the commit.
-          # Default: 'Commit from GitHub Actions (name of the workflow)'
           message: '[U] Generate json'
