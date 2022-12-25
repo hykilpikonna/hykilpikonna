@@ -2,17 +2,17 @@ import json
 import os
 from pathlib import Path
 
-import json5 as json5
 import requests
 import tweepy
+import yaml
+from hypy_utils import ensure_dir, write
 from tweepy import User
 
 
 def wget(url: str, file: Path):
     if not file.is_file():
         r = requests.get(url)
-        file.write_bytes(r.content)
-    return str(file).replace('\\', '/')
+        write(file, r.content)
 
 
 if __name__ == '__main__':
@@ -20,42 +20,41 @@ if __name__ == '__main__':
     auth = tweepy.OAuth2BearerHandler(token)
     api = tweepy.API(auth)
 
-    gen_path = Path('content/generated/friends')
+    gen_path = ensure_dir('content/generated/friends')
     (gen_path / 'img').mkdir(exist_ok=True, parents=True)
 
+    # Load friends
+    friends: dict[str, dict] = yaml.safe_load(Path('content/friends.yaml').read_text())
+
     # Loop through all friends
-    friends: list[dict] = json5.loads(Path('content/friends.json5').read_text('utf-8'))
-    for f in friends:
-        name = f['name']
+    for name, f in friends.items():
         avatar_path = gen_path / f'img/{name}-avatar.jpg'
         banner_path = gen_path / f'img/{name}-banner.jpg'
-
-        # Already cached
-        if avatar_path.is_file():
-            f['avatar'] = str(avatar_path)
-        if banner_path.is_file():
-            f['banner'] = str(banner_path)
-        if avatar_path.is_file() and banner_path.is_file():
-            continue
 
         avatar, banner = f.get('avatar'), f.get('banner')
 
         # Get avatar url
         if 'twitter' in f:
-            name = f['twitter']
-            u: User = api.get_user(screen_name=name)
+            u: User = api.get_user(user_id=f['twitter'])
+            print(f"{f['twitter']}'s username is {u.screen_name}")
+            f['twitter'] = u.url
 
             if not avatar:
                 avatar = u.profile_image_url_https.replace('_normal', '')
             if not banner and 'profile_banner_url' in u.__dict__:
                 banner = u.profile_banner_url
 
-        # Download avatar/banner locally
+        # Download avatar/banner locally if not exist
         if banner:
-            f['banner'] = '/' + wget(banner, banner_path)
+            wget(banner, banner_path)
         if avatar:
-            f['avatar'] = '/' + wget(avatar, avatar_path)
+            wget(avatar, avatar_path)
 
-    (gen_path / 'friends.json').write_text(json.dumps(friends), 'utf-8')
+        f['avatar'], f['banner'] = str(avatar_path), str(banner_path)
+
+    # Map names
+    friends: list[dict] = [{'name': name, **f} for name, f in friends.items()]
+
+    write(gen_path / 'friends.json', json.dumps(friends))
 
     print('Done')
