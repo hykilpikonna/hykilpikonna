@@ -13,6 +13,7 @@ I also love cats =^･-･^=
 
 ### 🕊️ You can reach me at <!--{ collapseSection() }-->
 
+* [Blog](https://aza.moe) | [Monitor](https://gf.hydev.org)
 * Telegram [@hykilpikonna](https://t.me/hykilpikonna)
 * Discord `Hykilpikonna#3162`
 * Email me@hydev.org
@@ -28,10 +29,10 @@ I also love cats =^･-･^=
 
 ### ⭐ I have experience using <!--{ collapseSection() }-->
 
-* Kotlin / Java - (Spring, Hibernate, ...)
+* Kotlin / Java - (Spring, Hibernate, Android, Coroutines, ...)
 * TypeScript / JS - (Vue3, Angular, Cordova, Three.js, ...)
 * HTML & SCSS
-* Python 3
+* Python 3 - (numpy, tensorflow, sklearn, pandas, numba, xgboost, ...)
 * Swift for iOS
 
 
