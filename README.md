@@ -13,7 +13,7 @@ I also love cats =^･-･^=
 
 ### 🕊️ You can reach me at <!--{ collapseSection() }-->
 
-* [Blog](https://aza.moe) | [Monitor](https://gf.hydev.org)
+* [Blog](https://aza.moe) | [Monitor](https://gf.hydev.org) | [Class Notes](https://hydev.notion.site/)
 * Telegram [@hykilpikonna](https://t.me/hykilpikonna)
 * Discord `Hykilpikonna#3162`
 * Email me@hydev.org
