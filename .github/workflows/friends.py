@@ -35,14 +35,19 @@ if __name__ == '__main__':
 
         # Get avatar url
         if 'twitter' in f:
-            u: User = api.get_user(user_id=f['twitter'])
-            print(f"{f['twitter']}'s username is {u.screen_name}")
-            f['twitter'] = f"https://twitter.com/{u.screen_name}"
+            try:
+                u: User = api.get_user(user_id=f['twitter'])
+                print(f"{f['twitter']}'s username is {u.screen_name}")
+                f['twitter'] = f"https://twitter.com/{u.screen_name}"
 
-            if not avatar:
-                avatar = u.profile_image_url_https.replace('_normal', '')
-            if not banner and 'profile_banner_url' in u.__dict__:
-                banner = u.profile_banner_url
+                if not avatar:
+                    avatar = u.profile_image_url_https.replace('_normal', '')
+                if not banner and 'profile_banner_url' in u.__dict__:
+                    banner = u.profile_banner_url
+
+            except tweepy.errors.NotFound:
+                print(f"Twitter user {f['twitter']} not found, removing from friends.json")
+                del f['twitter']
 
         # Download avatar/banner locally if not exist
         if banner:
