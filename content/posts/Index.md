@@ -5,8 +5,6 @@ category: 置顶
 pinned: 1
 ---
 
-TODO: 欢迎文案
-
 按分类检索：
 
 <BlogIndex/>

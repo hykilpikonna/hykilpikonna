@@ -1,0 +1,40 @@
+---
+title: Snowy World
+subtitle: 一个 telnet 协议的 ASCII 动画
+---
+
+<img src="{src}/content/images/2023-03-09/Pasted image 20230309032722.png" />
+
+写了一个 telnet 协议的 ascii 动画！（花了一整天又没什么用，但是好好玩ww
+
+用指令 `telnet hydev.org` 连接哦。记得用一个好用一点的终端，比如 kitty / iTerm2
+
+<figure>
+    <img src="{src}/content/images/2023-03-09/Pasted image 20230309040403.png" />
+    <caption>用 cool-retro-term 登录 ptt.cc 论坛的 telnet</caption>
+</figure>
+
+昨天和鱼塔闲聊，从某紫底绿字网页聊到复古终端又聊到 telnet 论坛。这是我第一次见到 telnet 协议的论坛哇，连进 ptt 和水木论坛转了转，完全被五颜六色的字符画和各种小彩蛋吸引住了 qwq 决定我也写一个简单 ascii 动画放进我的小小角落...
+
+...然后就这样花掉了一整天 🌚
+
+刚开始用 python 两个小时写好了 telnet 监听、雪花、字符画、移动，简简单单地一层一层字符打上去，但是这样会让图层闪来闪去。然后改成了存 framebuffer 2d 矩阵，先把不同图层叠到缓存里再统一渲成一层命令行能懂的控制符，但是 py 矩阵遍历真的好慢好慢，用上 numpy 也依然非常慢，渲染一帧要 42ms。好像这个问题并没有解... 用 numba JIT 把遍历函数编译成二进制也只优化到了 16ms。无奈啊，可能方便的语言就是跑不快，借这个契机开始学 rust 了！
+
+<figure>
+    <img src="{src}/content/images/2023-03-09/Screenshot from 2023-03-08 03-06-28 1.png" />
+    <caption>Python 渲染日志，一圈需要 45ms</caption>
+</figure>
+
+rust 确实好不方便，因为不能有全局变量，用 struct + impl 强行模拟了 OOP 的对象，把全局全都写在 struct Main 里面 🌚。但是有时候又不能当作对象，遇到了比如可变指针借用的问题，把常量和变量分开存解决了，还有生命周期什么的，总之是好多写完了也没太学懂的概念。昨天折腾到凌晨五点 rua 完了，没想到同一个 2d 数组遍历只是用 rust 重写就只占用 0.12ms 了哇，350 倍啊 350 倍！
+(╯’ – ‘)╯︵ ┻━┻
+
+~~就此立 flag，以后新坑绝对不会再碰 python 了~~。明明同样是 O(n * m) 的代码居然会差这么多... 现实中优化算法常量也很重要呢
+
+<figure>
+    <img src="{src}/content/images/2023-03-09/Screenshot from 2023-03-08 10-26-16.png" />
+    <caption>Rust 可变 &self 指针借用的报错</caption>
+</figure>
+
+接下来想要把写完的命令行程序接到 telnet 协议上，可是 rust 没有做好的 telnet 服务器库，怎么办呢？先是试着用 tokio 手搓一个协议库，发现没办法读未缓存的原始键盘事件，去 SO 问了。之后尝试调用 c 的 libtelnet 库，跑起来到处报 SIGSEGV 呜呜呜。最后还是直接用 py 的代码开子进程做了一个中继，收到客户端的输入转发给 rust，收到 rust 的输出再转发给客户端... 意外地效果还不错。
+
+写完装进 docker 里面部署上去啦。花了一整天，但是学到了 rust，动画的效果也不错，总之很开心。写着写着有点想用这个框架写一个小游戏... 但是不太会游戏设计呢，再想想。
