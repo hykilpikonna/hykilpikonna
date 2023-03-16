@@ -50,6 +50,10 @@ if __name__ == '__main__':
 
             post['content'] = md.strip()
 
+            # Process iamges
+            post['content'] = re.sub(r'!\[\[\.\/(.*)\|(.*)\]\]', r'<figure><img src="{src}/content/posts/\1" /><caption>\2</caption></figure>', post['content'])
+            post['content'] = re.sub(r'!\[\[(.*)\|(.*)\]\]', r'<figure><img src="{src}/content/images/\1" /><caption>\2</caption></figure>', post['content'])
+
     posts.sort(key=lambda x: x['date'], reverse=True)
 
     # Give every post an id based on index
