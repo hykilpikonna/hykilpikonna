@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
             # Process iamges
             post['content'] = re.sub(r'!\[\[\.\/(.*)\|(.*)\]\]', r'<figure><img src="{src}/content/posts/\1" /><caption>\2</caption></figure>', post['content'])
-            post['content'] = re.sub(r'!\[\[(.*)\|(.*)\]\]', r'<figure><img src="{src}/content/images/\1" /><caption>\2</caption></figure>', post['content'])
+            post['content'] = re.sub(r'!\[\[\.\/(.*)\]\]', r'<img src="{src}/content/posts/\1" />', post['content'])
 
     posts.sort(key=lambda x: x['date'], reverse=True)
 
