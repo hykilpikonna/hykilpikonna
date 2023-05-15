@@ -15,7 +15,7 @@ I also love cats =^･-･^=
 
 * [Blog](https://aza.moe) | [Monitor](https://gf.hydev.org) | [Class Notes](https://hydev.notion.site/)
 * Telegram [@hykilpikonna](https://t.me/hykilpikonna)
-* Discord `Hykilpikonna#3162`
+* Discord `Azalea#3162`
 * Email me@hydev.org
 * **NEW!** Anonymous Question Box: https://peing.net/hykilpikonna
 
