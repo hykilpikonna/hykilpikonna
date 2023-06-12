@@ -38,11 +38,8 @@ I also love cats =^･-･^=
 
 ### 🌱 Projects I'm currently working on <!--{ collapseSection() }-->
 
-* `1%` A risc-v 16" laptop
-* `90%` A personal home page / blog: [profile.hydev.org](https://profile.hydev.org) / [aza.moe](https://aza.moe)
-* `50%` A speech gender recognition algorithm based on ML and statistical analysis of formants. 
+* `90%` A personal home page / blog: [profile.hydev.org](https://profile.hydev.org) / [aza.moe](https://aza.moe) 
 * `40%` A transgender voice training app. [voice.hydev.org](https://voice.hydev.org/)
-* `10%` ~~A spaced-repetition vocabulary memorization program optimized for Japanese language study - [NyaaMemo](https://github.com/hykilpikonna/AnkiNG)~~.
 
 
 ### 🌲 Completed projects <!--{ collapseSection() }-->
