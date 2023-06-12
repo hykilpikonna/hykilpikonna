@@ -1,6 +1,6 @@
 ### 🐱 Hi there, I'm Azalea!
 
-I'm Azalea Gui, a second-year undergraduate student at the University of Toronto, majoring in computer science and psychology. I'm interested in web development and machine learning. I'm currently doing research on voice-based gender identification for Chinese speakers.
+I'm Azalea Gui, a second-year undergraduate student at the University of Toronto, majoring in computer science and psychology. I'm interested in web development and machine learning. I'm currently a research intern at Microsoft as of Summer 2023, working with the Audio and Acoustics team on improving the evaluation of generative music. I've also been doing independent research on voice-based gender identification for Chinese speakers on the side.
 
 I also love cats =^･-･^=
 
