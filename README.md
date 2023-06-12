@@ -30,9 +30,10 @@ I also love cats =^･-･^=
 ### ⭐ I have experience using <!--{ collapseSection() }-->
 
 * Kotlin / Java - (Spring, Hibernate, Android, Coroutines, ...)
-* TypeScript / JS - (Vue3, Angular, Cordova, Three.js, ...)
+* TypeScript / JS - (Vue3, Next.js, Cordova, Three.js, Sequelize, ...)
 * HTML & SCSS
 * Python 3 - (numpy, tensorflow, sklearn, pandas, numba, xgboost, ...)
+* Rust!
 * Swift for iOS
 
 
@@ -44,5 +45,5 @@ I also love cats =^･-･^=
 
 ### 🌲 Completed projects <!--{ collapseSection() }-->
 
-I published many projects to [HyDEV (HyDevelop)](https://github.com/hydevelop), previously a two-person organization of me and my best friend [Vanilla](https://github.com/vergedx) before we broke up last year. Currently, I publish my projects to this personal account.
+I published many projects to [HyDEV (HyDevelop)](https://github.com/hydevelop), previously a two-person organization of me and my best friend [Vanilla](https://github.com/vergedx) before we broke up two year ago. Currently, I publish my projects to this personal account.
 There is a list of my significant projects on my [projects website](https://me.hydev.org). (TODO: Update this)
