@@ -16,9 +16,9 @@ def wget(url: str, file: Path):
 
 
 if __name__ == '__main__':
-    token = os.environ['TWITTER_BEARER']
-    auth = tweepy.OAuth2BearerHandler(token)
-    api = tweepy.API(auth)
+    # token = os.environ['TWITTER_BEARER']
+    # auth = tweepy.OAuth2BearerHandler(token)
+    # api = tweepy.API(auth)
 
     gen_path = ensure_dir('content/generated/friends')
     (gen_path / 'img').mkdir(exist_ok=True, parents=True)
@@ -34,20 +34,20 @@ if __name__ == '__main__':
         avatar, banner = f.get('avatar'), f.get('banner')
 
         # Get avatar url
-        if 'twitter' in f:
-            try:
-                u: User = api.get_user(user_id=f['twitter'])
-                print(f"{f['twitter']}'s username is {u.screen_name}")
-                f['twitter'] = f"https://twitter.com/{u.screen_name}"
+        # if 'twitter' in f:
+        #     try:
+        #         u: User = api.get_user(user_id=f['twitter'])
+        #         print(f"{f['twitter']}'s username is {u.screen_name}")
+        #         f['twitter'] = f"https://twitter.com/{u.screen_name}"
 
-                if not avatar:
-                    avatar = u.profile_image_url_https.replace('_normal', '')
-                if not banner and 'profile_banner_url' in u.__dict__:
-                    banner = u.profile_banner_url
+        #         if not avatar:
+        #             avatar = u.profile_image_url_https.replace('_normal', '')
+        #         if not banner and 'profile_banner_url' in u.__dict__:
+        #             banner = u.profile_banner_url
 
-            except tweepy.errors.NotFound:
-                print(f"Twitter user {f['twitter']} not found, removing from friends.json")
-                del f['twitter']
+        #     except tweepy.errors.NotFound:
+        #         print(f"Twitter user {f['twitter']} not found, removing from friends.json")
+        #         del f['twitter']
 
         # Download avatar/banner locally if not exist
         if banner:
