@@ -1,40 +1,48 @@
 Shu Lin:
-  twitter: 1459453832
+  twitter_uid: 1459453832
+  twitter: https://twitter.com/sauricat
   github: https://github.com/sauricat
   blog: https://shu-l.in/
   mastodon: https://m.cmx.im/@sauricat
 
 聊聊:
-  twitter: 2289619658
+  twitter_uid: 2289619658
+  twitter: https://twitter.com/youquzhiji
   github: https://github.com/youquzhiji
 
 Jun:
-  twitter: 1191955056700076032
+  twitter_uid: 1191955056700076032
+  twitter: https://twitter.com/kevera_chan
   github: https://github.com/gaojunxuan
   blog: https://terra-incognita.dev/
 
 Yuuta:
-  twitter: 1249818855712538624
+  twitter_uid: 1249818855712538624
+  twitter: https://twitter.com/NeoTrumeet
   github: https://github.com/Trumeet
   blog: https://blog.yuuta.moe/
   mastodon: https://mastodon.yuuta.moe/@yuuta
   
 Patchy:
-  twitter: 856037977893490688
+  twitter_uid: 856037977893490688
+  twitter: https://twitter.com/PatchouliTDF
   github: https://github.com/PatchyChan
   blog: https://loft.mukiyu.moe/
 
 Menci:
-  twitter: 1511944029440671746
+  twitter_uid: 1511944029440671746
+  twitter: https://twitter.com/lcMenci
   github: https://github.com/Menci
   blog: https://men.ci/
 
 蓝若黎:
+  twitter_uid: 1146653748405522432
+  twitter: https://twitter.com/lanruoliowo
   mastodon: https://mastodon.social/@lanruoli
-  twitter: 1146653748405522432
 
 霧雨桂子:
-  twitter: 1419580851587665922
+  twitter_uid: 1419580851587665922
+  twitter: https://twitter.com/kirisamelev
   
 豆腐球:
   blog: https://tofuball.moe
@@ -46,17 +54,20 @@ Ayu 甜鱼:
   blog: https://ayu.land/
 
 Billchenchina:
-  twitter: 1237960533694799872
+  twitter_uid: 1237960533694799872
+  twitter: https://twitter.com/BillChen2001
   github: https://github.com/billchenchina
   blog: https://billchen.bid/
 
 芋头 Leohearts:
-  twitter: 3692606353
+  twitter_uid: 3692606353
+  twitter: https://twitter.com/TaroLeohearts
   github: https://github.com/leohearts
   blog: https://leohearts.com/
 
 Sez:
-  twitter: 1085791168040861696
+  twitter_uid: 1085791168040861696
+  twitter: https://twitter.com/fiberate_Sez
   github: https://github.com/Sezriv
   
 灯花:
@@ -64,30 +75,36 @@ Sez:
   blog: https://诺艾尔.我爱你/
 
 眠洲:
-  twitter: 744600383767478273
+  twitter_uid: 744600383767478273
+  twitter: https://twitter.com/usagiByTheShore
 
 Kiritake Kumi:
-  twitter: 1487954996117131264
+  twitter_uid: 1487954996117131264
+  twitter: https://twitter.com/kiritakekumi
   github: https://github.com/KiritakeKumi
   blog: https://niconiconi.us/
 
 Saukiya:
-  twitter: 1280384632748257282
+  twitter_uid: 1280384632748257282
+  twitter: https://twitter.com/SaukiyaSX
   github: https://github.com/Saukiya
 
 kunihiro:
   avatar: https://avatars.githubusercontent.com/u/34958289
   banner: https://assets.ppy.sh/user-profile-covers/9829957/0c6ab28bdeafd6f34602a3fcd60be301d20fae11f68ce8f9696516c0a07d5137.png
-  twitter: https://twitter.com/krypterad_
+  twitter_uid: https://twitter_uid.com/krypterad_
   github: https://github.com/Linoleum2609
   blog: https://kunihi.ro/
 
 Vanilla:
-  twitter: 1152026009836777472
+  twitter_uid: 1152026009836777472
+  twitter: https://twitter.com/osu_Vanilla
   github: https://github.com/VergeDX
 
 麻薯:
-  twitter: 3029159570
+  twitter_uid: 3029159570
+  twitter: https://twitter.com/Origamitamaran
 
 完颜澄:
-  twitter: 711888363423272960
+  twitter_uid: 711888363423272960
+  twitter: https://twitter.com/zsy123515
