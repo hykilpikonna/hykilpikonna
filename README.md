@@ -13,7 +13,7 @@ I also love cats =^･-･^=
 
 ### 🕊️ You can reach me at <!--{ collapseSection() }-->
 
-* [Blog](https://aza.moe) | [Monitor](https://gf.hydev.org) | [Class Notes](https://hydev.notion.site/)
+* [Blog](https://aza.moe) | [Class Notes](https://hydev.notion.site/) | [OS Monitor](https://gf.hydev.org/d/7JdIfTn9z/os-monitor)
 * Telegram [@hykilpikonna](https://t.me/hykilpikonna)
 * Discord `hykilp`
 * Email me@hydev.org
@@ -45,5 +45,5 @@ I also love cats =^･-･^=
 
 ### 🌲 Completed projects <!--{ collapseSection() }-->
 
-I published many projects to [HyDEV (HyDevelop)](https://github.com/hydevelop), previously a two-person organization of me and my best friend [Vanilla](https://github.com/vergedx) before we broke up two year ago. Currently, I publish my projects to this personal account.
+I published many projects to [HyDEV (HyDevelop)](https://github.com/hydevelop), previously a two-person organization of me and my best friend [Vanilla](https://github.com/vergedx) before we broke up three year ago. Currently, I publish my projects to this personal account.
 There is a list of my significant projects on my [projects website](https://me.hydev.org). (TODO: Update this)
