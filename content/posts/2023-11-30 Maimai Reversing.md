@@ -24,6 +24,7 @@ sudo mount /dev/nbd0 /mnt
 下面分别是两层 VHD 的文件头和 file 信息，`conectix` 开头的是第二层，`eb5290 NTFS` 开头的是第一层：
 
 ![[./Assets/2023-11-30 Maimai 逆向/2023-11-30 10-04.png]]
+
 qemu-nbd 加载了第一层之后连 fdisk 都是懵的，即使是这样乱来也能挂载上也真是好神奇：
 
 ![[./Assets/2023-11-30 Maimai 逆向/2023-11-30 10-08.png]]
