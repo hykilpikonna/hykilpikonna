@@ -4,7 +4,7 @@ subtitle: 从拆包到脱壳到魔改遇到的各种坑
 tags: [ctf]
 ---
 
-不久之前某位朋友拿到了最新最热的 maimai DX BUDDiES 1.40 .app 镜像，然后和她一起折腾了几天拆包脱壳之后终于成功启动了！在这里简单写一下解包过程和学到的事情，作为记录也作为一个教程吧，希望之后尝试解包的人不需要踩同样的坑了。
+不久之前某位朋友拿到了最新最热的 maimai DX BUDDiES 1.40 .app 镜像，然后和ta一起折腾了几天拆包脱壳之后终于成功启动了！在这里简单写一下解包过程和学到的事情，作为记录也作为一个教程吧，希望之后尝试解包的人不需要踩同样的坑了。
 
 ![[./Assets/2023-11-30 Maimai 逆向/2023-11-30 08-44.png]]
 
@@ -16,7 +16,7 @@ tags: [ctf]
 
 ```sh
 sudo modprobe nbd
-sudo qemu-nbd -c /dev/nbd0 "SDHD_2.00.01_20210917065431_0.vhd"
+sudo qemu-nbd -c /dev/nbd0 "outer.vhd"
 sudo mount /dev/nbd0 /mnt
 # /mnt 里面应该有 internal_{N}.vhd
 ```
