@@ -1,8 +1,8 @@
 ### 🐱 Hi there, I'm Azalea!
 
-I'm Azalea Gui, a third-year undergrad at the University of Toronto, studying computer science and psychology. I'm interested in web development and machine learning. I'm currently a research intern at Microsoft, working with the Audio and Acoustics team on improving the evaluation of generative music. I've also been doing independent research on creating an AI transgender voice training assistant on the side.
+I'm Azalea Gui, a third-year undergrad at the University of Toronto, studying computer science and psychology. I find joy in designing modern web frontends and doing research in machine learning and audio / signal-processing projects. I published the [FAD toolkit](https://github.com/microsoft/fadtk) during my last research project on [improving the evaluation of generative music](https://arxiv.org/abs/2311.01616). I've also been doing independent research on creating an AI transgender voice training assistant.
 
-I also love cats =^･-･^=
+I also love rhythm games and cats =^･-･^=
 
 
 ### 🌷 My overall statistics <!--{ collapseSection() }-->
@@ -29,17 +29,17 @@ I also love cats =^･-･^=
 
 ### ⭐ I have experience using <!--{ collapseSection() }-->
 
-* Kotlin / Java - (Spring, Hibernate, Android, Coroutines, ...)
-* TypeScript / JS - (Vue3, Next.js, Cordova, Three.js, Sequelize, ...)
-* HTML & SCSS
-* Python 3 - (numpy, tensorflow, sklearn, pandas, numba, xgboost, ...)
-* Rust!
-* Swift for iOS
+* **Backend**: Kotlin / Java - (Spring, Hibernate, Kotlin coroutines, ...)
+* **Frontend**: TypeScript + HTML + Sass - (Svelte, SolidJS, Vue3, ...)
+* **Research**: Python 3.12 - (pytorch, numpy, tensorflow, sklearn, pandas, xgboost, ...)
+* **Embedded**: C++ (PlatformIO Arduino toolchain)
+* **Mobile**: Kotlin for Android, Swift for iOS
 
 
 ### 🌱 Projects I'm currently working on <!--{ collapseSection() }-->
 
-* `90%` A personal home page / blog: [profile.hydev.org](https://profile.hydev.org) / [aza.moe](https://aza.moe) 
+* `10%` An arcade server for the modern age: [AquaDX](https://github.com/hykilpikonna/AquaDX)
+* `90%` A personal home page / blog: [aza.moe](https://aza.moe) 
 * `40%` A transgender voice training app. [voice.hydev.org](https://voice.hydev.org/)
 
 
