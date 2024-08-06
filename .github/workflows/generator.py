@@ -58,7 +58,7 @@ if __name__ == '__main__':
         for img in re.findall(r'!\[\[(.*)\]\]', md):
             if '|' in img:
                 img, cap = img.split('|', 1)
-                post['content'] = post['content'].replace(f'![[{img}|{cap}]]', f'<figure><img src="{convert_img_path(img)}" /><figcaption>{cap}</figcaption></figure>')
+                post['content'] = post['content'].replace(f'![[{img}|{cap}]]', f'<figure><img src="{convert_img_path(img)}" /><caption>{cap}</caption></figure>')
             else:
                 post['content'] = post['content'].replace(f'![[{img}]]', f'<img src="{convert_img_path(img)}" />')
 
