@@ -6,6 +6,7 @@ from datetime import datetime, date
 from pathlib import Path
 
 import yaml
+import urllib.parse
 
 
 class Encoder(json.JSONEncoder):
@@ -19,40 +20,47 @@ class Encoder(json.JSONEncoder):
 
 if __name__ == '__main__':
     posts = []
+    basedir = Path('content/posts')
+    src = 'https://profile-content.hydev.org'
 
     # Loop through all blog posts
-    for b in os.listdir('content/posts'):
-        if not b.endswith('.md'):
-            continue
+    for file in basedir.glob('*.md'):
+        stem = file.stem
+        yml, md = re.split('---+\n', file.read_text('utf-8').strip())[1:]
+        
+        post = {'id': 0, **yaml.safe_load(yml), 'file': str(file)}
+        posts.append(post)
+        post.setdefault('tags', [])
 
-        # Read blog posts
-        file = 'content/posts/' + b
-        with open(file, 'r', encoding='utf-8') as f:
-            yml, md = re.split('---+\n', f.read().strip())[1:]
-            post = {'id': 0, **yaml.safe_load(yml), 'file': file}
-            posts.append(post)
-            post.setdefault('tags', [])
+        # Parse date
+        if 'date' not in post:
+            try:
+                post['date'] = datetime(int(stem[:4]), int(stem[5:7]), int(stem[8:10]))
+            except:
+                post['date'] = datetime.fromtimestamp(os.path.getmtime(file))
+                
+        def convert_img_path(s: str):
+            if s.startswith('http'):
+                return s
+            return f'{src}/content/posts/Assets/{urllib.parse.quote(stem)}/{urllib.parse.quote(s)}'
 
-            # Parse date
-            if 'date' not in post:
-                try:
-                    post['date'] = datetime(int(b[:4]), int(b[5:7]), int(b[8:10]))
-                except:
-                    post['date'] = datetime.fromtimestamp(os.path.getmtime(file))
+        # Convert image path
+        if 'title_image' in post:
+            post['title_image'] = convert_img_path(post['title_image'])
 
-            # Convert image path
-            if 'title_image' in post and '/' not in post['title_image']:
-                post['title_image'] = 'content/images/' + post['title_image']
+        # Generate url-name
+        if 'url_name' not in post:
+            post['url_name'] = stem.replace(' ', '-')
+        
+        post['content'] = md.strip()
 
-            # Generate url-name
-            if 'url_name' not in post:
-                post['url_name'] = os.path.splitext(b)[0].replace(' ', '-')
-
-            post['content'] = md.strip()
-
-            # Process iamges
-            post['content'] = re.sub(r'!\[\[\.\/(.*)\|(.*)\]\]', r'<figure><img src="{src}/content/posts/\1" /><caption>\2</caption></figure>', post['content'])
-            post['content'] = re.sub(r'!\[\[\.\/(.*)\]\]', r'<img src="{src}/content/posts/\1" />', post['content'])
+        # Process images
+        for img in re.findall(r'!\[\[(.*)\]\]', md):
+            if '|' in img:
+                img, cap = img.split('|', 1)
+                post['content'] = post['content'].replace(f'![[{img}|{cap}]]', f'<figure><img src="{convert_img_path(img)}" /><figcaption>{cap}</figcaption></figure>')
+            else:
+                post['content'] = post['content'].replace(f'![[{img}]]', f'<img src="{convert_img_path(img)}" />')
 
     posts.sort(key=lambda x: x['date'], reverse=True)
 
