@@ -84,7 +84,7 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 from pathlib import Path
 
-aes = AES.new(b"g2fcC0ZczN9MTJ61", AES.MODE_CBC, b"msx3IV0i9XE5uYZ1")
+aes = AES.new(b"- key here qwq -", AES.MODE_CBC, b"- iv here meow -")
 dec = lambda x: unpad(aes.decrypt(x), AES.block_size, style='pkcs7')
 
 [f.with_suffix(".dec").write_bytes(dec(f.read_bytes())) 
