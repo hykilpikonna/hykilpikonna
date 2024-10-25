@@ -1,6 +1,6 @@
 ---
 title: 世界计划 缤纷舞台！feat. IL2Cpp
-title_image: 
+title_image: crop.png
 subtitle: 从零开始解密 pjsk 的网络请求
 tags:
   - ctf
