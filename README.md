@@ -46,4 +46,4 @@ I also love rhythm games and cats =^･-･^=
 ### 🌲 Completed projects <!--{ collapseSection() }-->
 
 I published many projects to [HyDEV (HyDevelop)](https://github.com/hydevelop), previously a two-person organization of me and my best friend [Vanilla](https://github.com/vergedx) before we broke up three year ago. Currently, I publish my projects to this personal account.
-There is a list of my significant projects on my [projects website](https://me.hydev.org). (TODO: Update this)
+There is a list of my significant projects on my [projects website](https://me.hydev.org). (TODO: Ok this project page is 4 years out-of-date I seriously need to update this ;-;)
