@@ -1,6 +1,7 @@
 ---
 title: 《A Minecraft Movie》影评
 subtitle: 桂桂评分：★★☆☆☆ 2/5
+title_image: "title.png"
 tags: [影评]
 category: 影评
 ---
