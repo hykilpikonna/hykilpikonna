@@ -1,0 +1,11 @@
+{
+  "accentColor": "#ef6b7f",
+  "monospaceFontFamily": "Sarasa Mono SC",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "hydev"
+  ],
+  "textFontFamily": "",
+  "baseFontSize": 18,
+  "theme": "obsidian"
+}

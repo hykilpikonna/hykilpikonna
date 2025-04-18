@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "LXGW WenKai";
+  src: url("https://aza.moe/fonts/LXGWWenKai-Regular.woff2") format("woff2"), url("https://aza.moe/fonts/LXGWWenKai-Regular.woff") format("woff");
+}
+.font-custom, body {
+  --font-fallback: "Noto Sans SC", Avenir, Helvetica, Arial, sans-serif;
+  --font-text: "Maiandra GD", "LXGW WenKai", var(--font-fallback) !important;
+  --font-interface: "Maiandra GD", "LXGW WenKai", var(--font-fallback) !important;
+}
+
+.image-embed img {
+  border-radius: 10px;
+}
+
+.image-captions-figure {
+  border-radius: 10px;
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+.cm-line:has(.cm-hmd-frontmatter) {
+  line-height: calc(0.7em + 4px);
+}
+
+.cm-hmd-frontmatter {
+  font-size: 0.7em;
+  color: #aaa;
+  line-height: 0.5em;
+}
+
+/*# sourceMappingURL=hydev.css.map */
