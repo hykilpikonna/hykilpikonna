@@ -1,9 +1,10 @@
 ---
 title: 《A Minecraft Movie》影评
 subtitle: 桂桂评分：★★☆☆☆ 2/5
-title_image: "title.png"
-tags: [影评]
-category: 影评
+title_image: title.png
+tags:
+  - 电影
+category: 电影
 ---
 
 Minecraft 电影刚上映，虽然已经知道了评价不太好，但是毕竟是陪伴了我 12 年的游戏还是第一天去看了，结果不出意料让我有些失望。
