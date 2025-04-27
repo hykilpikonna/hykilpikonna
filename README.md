@@ -35,6 +35,12 @@ I also love rhythm games and cats =^･-･^=
 * **Embedded**: C++ (PlatformIO Arduino toolchain)
 * **Mobile**: Kotlin for Android, Swift for iOS
 
+### 🔮 Open-source Everything!
+
+I aim to open-source not only code, but everything I make! This includes hardware projects and other multimedia projects. Check them out!
+
+* 🎼 [Music](https://github.com/hykilpikonna/Music)
+* 🪛 [Hardware](https://github.com/hykilpikonna/OpenHardware)
 
 ### 🌱 Projects I'm currently working on <!--{ collapseSection() }-->
 
