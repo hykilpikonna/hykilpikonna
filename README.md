@@ -32,7 +32,7 @@ I also love rhythm games and cats =^･-･^=
 * **Backend**: Kotlin / Java - (Spring, Hibernate, Kotlin coroutines, ...)
 * **Frontend**: TypeScript + HTML + Sass - (Svelte, SolidJS, Vue3, ...)
 * **Research**: Python 3.12 - (pytorch, numpy, tensorflow, sklearn, pandas, xgboost, ...)
-* **CLI Tools**: Rust
+* **CLI Tools**: Rust 🦀
 * **Embedded**: C++ (PlatformIO Arduino toolchain)
 * **Mobile**: Kotlin for Android, Swift for iOS
 
