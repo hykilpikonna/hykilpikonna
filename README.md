@@ -1,6 +1,6 @@
 ### 🐱 Hi there, I'm Azalea!
 
-I'm Azalea Gui, a third-year undergrad at the University of Toronto, studying computer science and psychology. I find joy in designing modern web frontends and doing research in machine learning and audio / signal-processing projects. I published the [FAD toolkit](https://github.com/microsoft/fadtk) during my last research project on [improving the evaluation of generative music](https://arxiv.org/abs/2311.01616). I've also been doing independent research on creating an AI transgender voice training assistant.
+I'm Azalea Gui, a 4th year CS undergrad at the University of Toronto. I find joy in designing modern web frontends and doing research in machine learning and audio/speech/music signal-processing projects. I published the [FAD toolkit](https://github.com/microsoft/fadtk) during my last research project on [improving the evaluation of generative music](https://arxiv.org/abs/2311.01616). I've also been doing independent research on creating an AI transgender voice training assistant.
 
 I also love rhythm games and cats =^･-･^=
 
