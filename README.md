@@ -13,7 +13,7 @@ I also love rhythm games and cats =^･-･^=
 
 ### 🕊️ You can reach me at <!--{ collapseSection() }-->
 
-* [Blog](https://aza.moe) | [Class Notes](https://hydev.notion.site/) | [OS Monitor](https://gf.hydev.org/d/7JdIfTn9z/os-monitor)
+* [Blog](https://aza.moe) | [Class Notes](https://hydev.notion.site/Azalea-s-Notion-436723d16f304e0a95e4e503ae82c6f8) | [OS Monitor](https://gf.hydev.org/d/7JdIfTn9z/os-monitor)
 * Telegram [@hykilpikonna](https://t.me/hykilpikonna)
 * Discord `hykilp`
 * Email me@hydev.org
