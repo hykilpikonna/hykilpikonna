@@ -27,7 +27,7 @@ I also love rhythm games and cats =^･-･^=
 * 🇯🇵 日本語 (Learning)
 
 
-### ⭐ I have experience using <!--{ collapseSection() }-->
+### ⭐ I have experience writing <!--{ collapseSection() }-->
 
 * **Backend**: Kotlin / Java - (Spring, Hibernate, Kotlin coroutines, ...)
 * **Frontend**: TypeScript + HTML + Sass - (Svelte, SolidJS, Vue3, ...)
